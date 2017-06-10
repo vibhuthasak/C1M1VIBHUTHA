@@ -88,3 +88,5 @@ int find_maximum(int array[]);
  */
 int find_minimum(int array[]);
 
+#endif
+
