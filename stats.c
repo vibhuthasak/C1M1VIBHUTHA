@@ -43,7 +43,7 @@ void sort_array(int list[]) {
    for(i = 0; i < SIZE-1; i++) {
       swapped = false;
       for(j = 0; j < SIZE-1-i; j++) {
-         if(list[j] > list[j+1]) {
+         if(list[j] < list[j+1]) {
             temp = list[j];
             list[j] = list[j+1];
             list[j+1] = temp;

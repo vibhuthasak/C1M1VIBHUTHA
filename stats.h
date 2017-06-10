@@ -53,7 +53,7 @@ void sort_array(int list[]);
  *
  * @return median value
  */
-void find_median(int array[]);
+float find_median(int array[]);
 
 /**
  * @brief find the mean value of interger array
@@ -64,7 +64,7 @@ void find_median(int array[]);
  *
  * @return mean value
  */
-void find_mean(int array[]);
+float find_mean(int array[]);
 
 /**
  * @brief find the max value of interger array
@@ -75,7 +75,7 @@ void find_mean(int array[]);
  *
  * @return maximun value
  */
-void find_maximum(int array[]);
+int find_maximum(int array[]);
 
 /**
  * @brief find the min value of interger array
@@ -86,5 +86,5 @@ void find_maximum(int array[]);
  *
  * @return minimum value
  */
-void find_minimum(int array[]);
+int find_minimum(int array[]);
 
