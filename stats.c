@@ -36,7 +36,7 @@ void print_array(int list[]) {
 
 
 void sort_array(int list[]) {
-   //USING BUBBLE SORT DECENDING ORDER
+   //USING BUBBLE SORT DECENDING ODR
    int temp;
    int i,j;
 
